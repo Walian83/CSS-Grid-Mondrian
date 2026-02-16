@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 650px;
+      height: 600px;
+      display: grid;
+      grid-template-columns: repeat(13, 1fr);
+      grid-template-rows: repeat(12, 1fr);
+      background-color: #ace1af;
+      /*background-color: seagreen;*/
+    }
+
+    .itemp {
+      background-color: #9f9fdf;
+      /*background-color: purple;*/
+    }
+
+    .itemw {
+      background-color: white;
+    }
+
+    .purple1 {
+      grid-area: 4 / 2 / span 3 / span 1;
+    }
+
+    .purple2 {
+      grid-area: 3 / 3 / span 5 / span 1;
+    }
+
+    .purple3 {
+      grid-area: 2 / 4 / span 7 / span 1;
+    }
+
+    .purple4 {
+      grid-area: 2 / 5 / span 8 / span 1;
+    }
+
+    .purple5 {
+      grid-area: 3 / 6 / span 8 / span 1;
+    }
+
+    .purple6 {
+      grid-area: 4 / 7 / span 8 / span 1;
+    }
+
+    .purple7 {
+      grid-area: 3 / 8 / span 8 / span 1;
+    }
+
+    .purple8 {
+      grid-area: 2 / 9 / span 8 / span 1;
+    }
+
+    .purple9 {
+      grid-area: 2 / 10 / span 7 / span 1;
+    }
+
+    .purple10 {
+      grid-area: 3 / 11 / span 5 / span 1;
+    }
+
+    .purple11 {
+      grid-area: 4 / 12 / span 3 / span 1;
+    }
+
+    .white1 {
+      grid-area: 4 / 4 / span 2 / span 1;
+      order: 1;
+    }
+
+    .white2 {
+      grid-area: 4 / 5 / span 1 / span 1;
+      order: 1;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+   <div class = "container">
+    <div class = "itemp purple1"></div>
+    <div class = "itemp purple2"></div>
+    <div class = "itemw white1"></div>
+    <div class = "itemw white2"></div>
+    <div class = "itemp purple3"></div>
+    <div class = "itemp purple4"></div>
+    <div class = "itemp purple5"></div>
+    <div class = "itemp purple6"></div>
+    <div class = "itemp purple7"></div>
+    <div class = "itemp purple8"></div>
+    <div class = "itemp purple9"></div>
+    <div class = "itemp purple10"></div>
+    <div class = "itemp purple11"></div>
+   </div>
+</body>
+
+</html>
