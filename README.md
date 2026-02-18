@@ -1,4 +1,4 @@
-<h1>CSS Grid Mondrian Project</h1>
+<h1>CSS Grid Mondrian Project - Exercise</h1>
 
 <h2>Description</h2>
 An exercise where the aim was to practice CSS grid by using it to recreate a Mondrian painting. The repo also includes an additional original grid-based artwork created as bonus practice.
